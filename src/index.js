@@ -3,14 +3,32 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.css';
+import WorkExperience from './components/workexperience';
+import MyNavbar from './components/navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+document.body.style.background = '#f3e0dc'
+
+const router = createBrowserRouter([{
+  path:"/",
+  element: <App></App>
+},
+{
+  path:"/workexperience",
+  element: <WorkExperience></WorkExperience>
+}])
+
 root.render(
   <React.Fragment>
-    <App />
+    <MyNavbar></MyNavbar>
+    <RouterProvider router = {router}/>
   </React.Fragment>
 );
 

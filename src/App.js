@@ -1,5 +1,6 @@
 import MyNavbar from './components/navbar';
 import IntroPanel from './components/intropanel';
+import WorkExperience from './components/workexperience';
 import './App.css';
 import React, { Component } from 'react';
 
@@ -8,8 +9,7 @@ class App extends Component {
   render() { 
     return (
     <React.Fragment>
-    <MyNavbar></MyNavbar>
-    <IntroPanel></IntroPanel>
+    <IntroPanel id="intro"></IntroPanel>
     </React.Fragment>
    );
   }
