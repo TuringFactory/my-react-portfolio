@@ -15,7 +15,7 @@ function MyNavbar() {
         </Navbar.Brand>
         <Nav>
           <Nav.Link href="workexperience"> Work Experience</Nav.Link>
-          <Nav.Link> Education</Nav.Link>
+          <Nav.Link href="education"> Education</Nav.Link>
           <Nav.Link> Projects</Nav.Link>
           <Nav.Link>Resume</Nav.Link>
         </Nav>

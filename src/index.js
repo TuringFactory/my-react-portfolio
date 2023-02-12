@@ -12,6 +12,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.css';
 import WorkExperience from './components/workexperience';
 import MyNavbar from './components/navbar';
+import Education from './components/education';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.body.style.background = '#f3e0dc'
@@ -23,7 +24,12 @@ const router = createBrowserRouter([{
 {
   path:"/workexperience",
   element: <WorkExperience></WorkExperience>
-}])
+},
+{
+  path:"/education",
+  element:<Education></Education>
+}
+])
 
 root.render(
   <React.Fragment>

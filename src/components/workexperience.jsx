@@ -2,25 +2,34 @@ import React, { Component } from "react";
 import "../styles/transitions.css";
 import "../styles/positioning.css";
 import "../styles/colors.css";
+import ExperiencePanel from "./experiencePanel";
+import { Container, Row } from "react-bootstrap";
+import {
+  LMExperience,
+  GEICOExperience,
+  InternGEICOExperience,
+} from "../assets/data/workResponsibilities";
 
-const WorkExperience = () => {
-  return (
-    <React.Fragment>
-      <div className="mt-5">
-        <div className="block text-center" id="slidingWorkExp">
-          <h2 className="skills-right background-skill">Angular</h2>
-          <br></br>
-          <h2 className="skills-left background-skill-2">Java</h2>
-          <br></br>
-          <h2 className="skills-right background-skill">JavaScript</h2>
-          <br></br>
-          <h2 className="skills-left background-skill-2">.NET</h2>
-          <br></br>
-          <h2 className="skills-right background-skill">React</h2>
-        </div>
-      </div>
-    </React.Fragment>
-  );
-};
+class WorkExperience extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <Container className="">
+          <Row className="justify-content-center">
+            <ExperiencePanel job={LMExperience}></ExperiencePanel>
+            <br></br>
+          </Row>
+          <Row className="justify-content-center">
+            <ExperiencePanel job={GEICOExperience}></ExperiencePanel>
+            <br></br>
+          </Row>
+          <Row className="justify-content-center">
+            <ExperiencePanel job={InternGEICOExperience}></ExperiencePanel>
+          </Row>
+        </Container>
+      </React.Fragment>
+    );
+  }
+}
 
 export default WorkExperience;

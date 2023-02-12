@@ -5,5 +5,58 @@
 }
 
 
+.line{
+    opacity: 100;
+    border: 2px solid #2d545e;
+    animation: slide 5s ease-in infinite;
+}
+.line1{
+   
+    animation-delay: 1000ms;
+}
+.line2{
 
+    animation-delay: 800ms;
+}
+.line3{
+
+    animation-delay: 500ms;
+}
+.line4{
+
+    animation-delay: 700ms;
+}
+.line5{
+
+    animation-delay: 300ms;
+}
+
+@keyframes slide
+{
+    0%   {width: 0%}
+    50%  {width: 50%}
+    100% {width: 0%}
+}
+
+.intro-text{
+    transition: 2s;
+    font-size: 1.5em;
+}
+
+.intro-text:hover{
+    font-size: 2em;
+}
+
+.introProfilePic{
+    transition: 0.5s;
+}
+
+.introProfilePic:hover{
+    transform: scale(1.05);
+}
+
+.test{
+    transition: 5s;
+    opacity: 0;
+}
 
