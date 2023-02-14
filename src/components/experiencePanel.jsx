@@ -28,7 +28,7 @@ class ExperiencePanel extends Component {
       <React.Fragment>
         <motion.div {...diagonalFadeIn} className="w-50 mt-5">
           {this.state.job.logo && (
-            <img className="expImg" src={this.formatImg()}></img>
+            <img alt="" className="expImg" src={this.formatImg()}></img>
           )}
           <h4 className="display-6"> {this.state.job.title} </h4>
           {this.formatResponsibilities()}

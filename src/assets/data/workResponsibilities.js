@@ -3,7 +3,7 @@
 
 export const LMExperience = {
     responsibilities: [    'Build REST APIs for enterprise and secret applications',
-    'Support existing systems by finding,fixing and debugging bugs',
+    'Support existing systems by finding, fixing and debugging issues',
     'Conduct technical demos to government customers',
     'Build custom UIs for executive users, reducing the need for manually created reports',
     'Develop classified user portal from scratch using Angular'],

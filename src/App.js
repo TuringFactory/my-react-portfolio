@@ -1,6 +1,4 @@
-import MyNavbar from './components/navbar';
 import IntroPanel from './components/intropanel';
-import WorkExperience from './components/workexperience';
 import './App.css';
 import React, { Component } from 'react';
 

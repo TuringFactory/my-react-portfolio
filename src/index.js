@@ -12,7 +12,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap/dist/css/bootstrap.css';
 import WorkExperience from './components/workexperience';
 import MyNavbar from './components/navbar';
-import Education from './components/education';
+import EducationPage from './components/educationPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.body.style.background = '#f3e0dc'
@@ -27,7 +27,7 @@ const router = createBrowserRouter([{
 },
 {
   path:"/education",
-  element:<Education></Education>
+  element:<EducationPage></EducationPage>
 }
 ])
 

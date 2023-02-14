@@ -6,5 +6,6 @@ export const vcu = {
 
 export const jsarge = {
     degree: 'Associates of Science',
-    major: 'Computer Science'
+    major: 'Computer Science',
+    logo: require('../images/reynolds.png')
 }

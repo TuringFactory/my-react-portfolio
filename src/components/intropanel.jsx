@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import { Badge, Card } from "react-bootstrap";
 import "../styles/positioning.css";
 import "../styles/colors.css";
 import "../styles/transitions.css";
 import {
-  diagonalFadeIn,
   rightSlideIn,
   leftSlideIn,
   bottomSlideIn,
