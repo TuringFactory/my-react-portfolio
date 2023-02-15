@@ -1,7 +1,7 @@
 {
-  "main.css": "/my-react-portfolio/static/css/main.8c46dec4.chunk.css",
-  "main.js": "/my-react-portfolio/static/js/main.073604d6.chunk.js",
-  "main.js.map": "/my-react-portfolio/static/js/main.073604d6.chunk.js.map",
+  "main.css": "/my-react-portfolio/static/css/main.6aac3b1c.chunk.css",
+  "main.js": "/my-react-portfolio/static/js/main.e1b8ed1b.chunk.js",
+  "main.js.map": "/my-react-portfolio/static/js/main.e1b8ed1b.chunk.js.map",
   "static/js/1.48fc70a5.chunk.js": "/my-react-portfolio/static/js/1.48fc70a5.chunk.js",
   "static/js/1.48fc70a5.chunk.js.map": "/my-react-portfolio/static/js/1.48fc70a5.chunk.js.map",
   "static/css/2.4ca982b9.chunk.css": "/my-react-portfolio/static/css/2.4ca982b9.chunk.css",
@@ -14,9 +14,9 @@
   "static/media/PaulNguyenResume2022.pdf": "/my-react-portfolio/static/media/PaulNguyenResume2022.14e3edb5.pdf",
   "static/media/vcu.png": "/my-react-portfolio/static/media/vcu.20dc0e53.png",
   "static/media/reynolds.png": "/my-react-portfolio/static/media/reynolds.1b1be853.png",
+  "static/css/main.6aac3b1c.chunk.css.map": "/my-react-portfolio/static/css/main.6aac3b1c.chunk.css.map",
   "static/css/2.4ca982b9.chunk.css.map": "/my-react-portfolio/static/css/2.4ca982b9.chunk.css.map",
-  "static/css/main.8c46dec4.chunk.css.map": "/my-react-portfolio/static/css/main.8c46dec4.chunk.css.map",
   "index.html": "/my-react-portfolio/index.html",
-  "precache-manifest.772bf0ad8efa7073dbfac348fa5bde0d.js": "/my-react-portfolio/precache-manifest.772bf0ad8efa7073dbfac348fa5bde0d.js",
+  "precache-manifest.61541ecf2e5dfa54ad4c651a9f6337ac.js": "/my-react-portfolio/precache-manifest.61541ecf2e5dfa54ad4c651a9f6337ac.js",
   "service-worker.js": "/my-react-portfolio/service-worker.js"
 }
