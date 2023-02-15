@@ -28,5 +28,11 @@
 
 }
 .expImg{
-    max-width: 50% !important;
+    max-width: 70% !important;
 }
+
+@media  (max-width: 500) {
+    .expText{
+      font-size: 3.0vw;
+    }
+  }

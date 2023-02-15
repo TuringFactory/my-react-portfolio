@@ -26,8 +26,8 @@ class IntroPanel extends Component {
               align="center"
             ></img>
           </motion.div>
-          <motion.div {...rightSlideIn} className="col-sm-4 mt-auto mb-auto">
-            <span className="display-6">
+          <motion.div {...rightSlideIn} className="col-sm-4">
+            <span className="display-6 mr-5 ml-5">
               Hello! I'm <span className="deep-rusted-red"> Paul Nguyen</span>.
               I am a <span className="rusted-gold intro-text">FullStack</span>{" "}
               developer with four years of enterprise development experience.

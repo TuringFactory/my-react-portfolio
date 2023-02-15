@@ -14,9 +14,9 @@ class ExperiencePanel extends Component {
   formatResponsibilities = () => {
     if (this.state.job.responsibilities)
       return this.state.job.responsibilities.map((e, index) => (
-        <div className=" text-left" key={index}>
+        <li className="text-left expText" key={index}>
           {e}
-        </div>
+        </li>
       ));
   };
   formatImg = () => {
@@ -26,12 +26,12 @@ class ExperiencePanel extends Component {
   render() {
     return (
       <React.Fragment>
-        <motion.div {...diagonalFadeIn} className="w-50 mt-5">
+        <motion.div {...diagonalFadeIn} className="w-75 mt-5">
           {this.state.job.logo && (
             <img alt="" className="expImg" src={this.formatImg()}></img>
           )}
           <h4 className="display-6"> {this.state.job.title} </h4>
-          {this.formatResponsibilities()}
+          <ul>{this.formatResponsibilities()}</ul>
         </motion.div>
       </React.Fragment>
     );

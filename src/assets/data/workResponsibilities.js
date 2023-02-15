@@ -12,7 +12,7 @@ export const LMExperience = {
 }
 
 export const GEICOExperience = {
-    responsibilities: [    '',
+    responsibilities: [
     'Develop frontend internal webpages',
     'Create API using .NET Framework',
     'Diagnose and fix bugs for billing application'],

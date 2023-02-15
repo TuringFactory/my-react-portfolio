@@ -11,7 +11,7 @@ class MyNavbar extends Component {
     return (
       <Navbar collapseOnSelect variant="light" expand="lg" className="space">
         <Container>
-          <Navbar.Brand className="display-2 circle" href="#/">
+          <Navbar.Brand className="display-2 circle text-" href="#/">
             P
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
