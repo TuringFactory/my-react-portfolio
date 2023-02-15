@@ -15,9 +15,12 @@ class IntroPanel extends Component {
     return (
       <React.Fragment>
         <motion.div className="row justify-content-center mt-3">
-          <motion.div {...leftSlideIn} className="col-md-3">
+          <motion.div
+            {...leftSlideIn}
+            className="col-md-6 align-items-center d-flex"
+          >
             <img
-              className=" rounded-circle col-sm-12 introProfilePic "
+              className=" rounded-circle introProfilePic m-auto"
               src={require("../assets/images/profile.jpg")}
               alt="profile pic"
               align="center"

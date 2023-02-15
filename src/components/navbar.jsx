@@ -9,15 +9,16 @@ class MyNavbar extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <Navbar variant="light" expand="lg">
-          <Container>
-            <Navbar.Brand className="display-2 circle" href="/">
-              P
-            </Navbar.Brand>
+      <Navbar collapseOnSelect variant="light" expand="lg" className="space">
+        <Container>
+          <Navbar.Brand className="display-2 circle" href="#/">
+            P
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse>
             <Nav>
-              <Nav.Link href="workexperience"> Work Experience</Nav.Link>
-              <Nav.Link href="education"> Education</Nav.Link>
+              <Nav.Link href="#/workexperience"> Work Experience</Nav.Link>
+              <Nav.Link href="#/education"> Education</Nav.Link>
               <Navbar.Toggle
                 onClick={downloadPDF}
                 className="btn btn-outline-success  d-inline"
@@ -26,9 +27,9 @@ class MyNavbar extends Component {
                 Resume
               </Navbar.Toggle>
             </Nav>
-          </Container>
-        </Navbar>
-      </div>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     );
   }
 }

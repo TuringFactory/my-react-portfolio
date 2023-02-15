@@ -49,6 +49,7 @@
 
 .introProfilePic{
     transition: 0.5s;
+    max-width: 100%;
 }
 
 .introProfilePic:hover{

@@ -11,7 +11,6 @@ class Education extends Component {
           className=" d-flex flex-column align-items-center mt-5 mb-5"
         >
           <img
-            className=""
             src={this.props.school ? this.props.school.logo : ""}
             alt=""
             width="300"
@@ -21,8 +20,8 @@ class Education extends Component {
             <br></br>
             <span>{this.props.school ? this.props.school.degree : ""}</span>
           </div>
-          <div className="">
-            <span className="display-6">Major</span>
+          <div>
+            <span className="display-6 text-left">Major</span>
             <br></br>
             <span>{this.props.school ? this.props.school.major : ""}</span>
           </div>

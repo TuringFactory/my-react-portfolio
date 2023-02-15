@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider,
+  createHashRouter
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -17,7 +18,7 @@ import EducationPage from './components/educationPage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.body.style.background = '#f3e0dc'
 
-const router = createBrowserRouter([{
+const router = createHashRouter([{
   path:"/",
   element: <App></App>
 },
