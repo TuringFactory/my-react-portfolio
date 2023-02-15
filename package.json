@@ -1,6 +1,7 @@
 {
   "name": "my-react-portfolio",
   "version": "0.1.0",
+  "homepage": "https://turingfactory.github.io/my-react-portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -8,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "framer-motion": "^9.0.2",
+    "gh-pages": "^5.0.0",
     "install": "^0.13.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
@@ -17,6 +19,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
