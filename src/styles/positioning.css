@@ -30,9 +30,38 @@
 .expImg{
     max-width: 70% !important;
 }
+.expText{
+    font-size: 3vw;
 
-@media  (max-width: 500) {
+}
+
+@media (max-width: 500px) {
     .expText{
-      font-size: 3.0vw;
+        font-size: 3vw;
     }
+
   }
+  
+  .introTextSize{
+    font-size: 2vw;
+  }
+
+  @media (max-width: 500px) {
+    .introTextSize{
+        font-size: 4vw;
+    }
+
+  }
+
+  .introDivTextWidth{
+    width: 100%;
+  }
+
+  @media (max-width: 500px) {
+    .introDivTextWidth{
+        width: 50% !important;
+        margin-top: 20px !important;
+    }
+
+  }
+

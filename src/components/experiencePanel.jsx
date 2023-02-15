@@ -14,7 +14,7 @@ class ExperiencePanel extends Component {
   formatResponsibilities = () => {
     if (this.state.job.responsibilities)
       return this.state.job.responsibilities.map((e, index) => (
-        <li className="text-left" key={index}>
+        <li className="text-left expText" key={index}>
           {e}
         </li>
       ));
