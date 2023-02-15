@@ -34,7 +34,7 @@ class MyNavbar extends Component {
   }
 }
 const downloadPDF = () => {
-  fetch(require("../assets/data/PaulNguyenResume2022.pdf")).then((response) => {
+  fetch(require("../assets/data/PaulNguyenResume.pdf")).then((response) => {
     response.blob().then((blob) => {
       const fileURL = window.URL.createObjectURL(blob);
       let alink = document.createElement("a");

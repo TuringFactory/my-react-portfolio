@@ -25,7 +25,6 @@ export const InternGEICOExperience = {
 'Grant permissions and distribute resources to VMs on request',
 'Build and configure virtual machines for internal customers'],
     title: 'Systems Engineer Intern',
-   // logo: require('../images/GEICO.png')
 }
 
 

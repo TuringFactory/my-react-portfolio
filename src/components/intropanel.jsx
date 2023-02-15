@@ -34,7 +34,7 @@ class IntroPanel extends Component {
             </span>
           </motion.div>
         </motion.div>
-        <motion.div {...bottomSlideIn}>
+        <motion.div className="mb-5" {...bottomSlideIn}>
           <hr className="m-auto mt-5 line1 line" width="0%" />
           <hr className="m-auto mt-5 line2 line" width="0%" />
           <hr className="m-auto mt-5 line3 line" width="0%" />
