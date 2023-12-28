@@ -31,7 +31,7 @@
     max-width: 70% !important;
 }
 .expText{
-    font-size: 3vw;
+    font-size: 1vw;
 
 }
 
@@ -51,10 +51,6 @@
         font-size: 4vw;
     }
 
-  }
-
-  .introDivTextWidth{
-    width: 100%;
   }
 
   @media (max-width: 500px) {
