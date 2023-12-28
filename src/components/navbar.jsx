@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import "../styles/positioning.css";
 import "../styles/colors.css";
 import React, { Component } from "react";
+import { motion } from "framer-motion/dist/framer-motion";
 
 class MyNavbar extends Component {
   state = {};
@@ -11,8 +12,8 @@ class MyNavbar extends Component {
     return (
       <Navbar collapseOnSelect variant="light" expand="lg" className="space">
         <Container>
-          <Navbar.Brand className="display-2 circle text-" href="#/">
-            P
+          <Navbar.Brand className="display-2 " href="#/">
+            <motion.div whileHover={{ scale: 1.3 }}>Homepage</motion.div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse>

@@ -11,3 +11,10 @@
 .rusted-gold{
    color: #ce9e62
 }
+
+
+.transparentButton:focus{
+    outline: none !important;
+    box-shadow: none;
+    border: none;
+}

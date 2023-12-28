@@ -1,17 +1,17 @@
-import IntroPanel from './components/intropanel';
-import './App.css';
-import React, { Component } from 'react';
+import IntroPanel from "./components/intropanel";
+import "./App.css";
+import React, { Component } from "react";
+import withSplashScreen from "./components/splashScreen";
 
 class App extends Component {
-  state = {  } 
-  render() { 
+  state = {};
+  render() {
     return (
-    <React.Fragment>
-    <IntroPanel id="intro"></IntroPanel>
-    </React.Fragment>
-   );
+      <React.Fragment>
+        <IntroPanel id="intro"></IntroPanel>
+      </React.Fragment>
+    );
   }
 }
- 
 
-export default App;
+export default withSplashScreen(App);
