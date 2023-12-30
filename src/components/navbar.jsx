@@ -7,10 +7,23 @@ import React, { Component } from "react";
 import { motion } from "framer-motion/dist/framer-motion";
 
 class MyNavbar extends Component {
-  state = {};
+  constructor(props) {
+    super(props);
+  }
+  state = {
+    showNav: this.props.showNav ? "block" : "none",
+    updateShowNav: this.props.updateShowNav,
+  };
+
   render() {
     return (
-      <Navbar collapseOnSelect variant="light" expand="lg" className="space">
+      <Navbar
+        style={{ display: this.state.showNav }}
+        collapseOnSelect
+        variant="light"
+        expand="lg"
+        className="space"
+      >
         <Container>
           <Navbar.Brand className="display-2 " href="#/">
             <motion.div whileHover={{ scale: 1.3 }}>Homepage</motion.div>

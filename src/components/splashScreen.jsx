@@ -22,6 +22,7 @@ export default function withSplashScreen(WrappedComponent) {
   return class extends Component {
     constructor(props) {
       super(props);
+      console.log(props);
       this.state = {
         loading: true,
         continueToSite: false,
@@ -53,15 +54,14 @@ export default function withSplashScreen(WrappedComponent) {
     render() {
       // while checking user session, show "loading" message
       if (this.state.loading) return SplashMessage();
-
       // once component is done loading, render the button that allows user to continue to site
-      if (!this.state.continueToSite)
+      else if (!this.state.continueToSite)
         return (
           <div className="row vh-100 justify-content-center">
             <div className="col-4 d-flex align-items-center">
               <motion.div
                 onClick={this.setContinueToSite}
-                whileHover={{ scale: 1.3 }}
+                whileHover={{ scale: 1.5 }}
                 initial={{ x: -1000 }}
                 animate={{ x: 100, transition: { duration: ".5" } }}
               >
@@ -74,7 +74,7 @@ export default function withSplashScreen(WrappedComponent) {
         );
 
       // otherwise, show the desired route
-      return <WrappedComponent {...this.props} />;
+      return <WrappedComponent {...this.props} showNav={true} />;
     }
   };
 }
