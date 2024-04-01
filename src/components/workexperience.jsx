@@ -8,6 +8,7 @@ import {
   LMExperience,
   GEICOExperience,
   InternGEICOExperience,
+  LMExperience2,
 } from "../assets/data/workResponsibilities";
 
 class WorkExperience extends Component {
@@ -16,6 +17,8 @@ class WorkExperience extends Component {
       <React.Fragment>
         <Container className="">
           <Row className="justify-content-center">
+            <ExperiencePanel job={LMExperience2}></ExperiencePanel>
+
             <ExperiencePanel job={LMExperience}></ExperiencePanel>
             <br></br>
           </Row>
